@@ -1,5 +1,6 @@
 int findMergeNode(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2) {
 SinglyLinkedListNode *node = head1;
+    
 vector<SinglyLinkedListNode*> nodes;
 while(node != NULL){
 nodes.push_back(node);
