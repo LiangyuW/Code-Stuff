@@ -52,6 +52,10 @@ if(keys2[hasone]-keys2[moreone] > 1) {
     return "NO"
 }
 
+if(map2[keys2[hasone]]!= map2[keys2[moreone]]){
+    return "NO"
+}
+ 
 
 return "YES"
 
