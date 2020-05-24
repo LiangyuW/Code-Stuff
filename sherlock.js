@@ -1,6 +1,5 @@
 
 
-
 function isValid(s) {
     let ary = s.split("")
     let map = {}
@@ -39,6 +38,10 @@ function isValid(s) {
         return "NO"
     }
     let keys2 = Object.keys(map2)
+    if(map2[keys2[0]] == 1 && map2[keys2[1]] == 1) {
+        hasone = 0
+        moreone = 1
+    } else {
     for(let i = 0; i< keys2.length; i++){
         if(map2[keys2[i]] == 1){
             hasone = i
@@ -46,7 +49,8 @@ function isValid(s) {
             moreone = i
         }
     }
-    
+    }
+
     let dominant = -1
     let minority = -1
     if(map2[keys2[moreone]] >= map2[keys2[hasone]]){
@@ -56,7 +60,7 @@ function isValid(s) {
         dominant = hasone
         minority = moreone
     }
-    
+
     if(hasone == -1){
         return "NO"
     }
@@ -64,11 +68,17 @@ function isValid(s) {
     if(keys2[hasone]-keys2[moreone] > 1) {
         return "NO"
     }
-
+    
+    if(keys2[dominant]>keys2[minority]+1 && 
+        map2[keys2[dominant]] == map2[keys2[minority]]){
+        return "NO"
+    }
+    
     if(keys2[dominant]>keys2[minority] && keys2[minority] > 1){
         if(map2[keys2[dominant]] != map2[keys2[minority]]){
             return "NO"
         }
+
     }
    
     return "YES"
@@ -86,3 +96,5 @@ console.log(isValid("aaaabbcc"))
 console.log(isValid("abccc"))
 console.log(isValid("bbaaaccc"))
 console.log(isValid("bbaaaacc"))
+console.log(isValid("aaaabb"))
+
