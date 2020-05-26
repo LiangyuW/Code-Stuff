@@ -2,11 +2,7 @@
 
 using namespace std;
 
-vector<string> split_string(string);
 
-/*
- * Complete the equalStacks function below.
- */
 int equalStacks(vector<int> h1, vector<int> h2, vector<int> h3) {
 
 int v1 = 0;
