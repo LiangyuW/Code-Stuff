@@ -7,3 +7,4 @@
 - sort_Big_Integers.cpp - https://www.hackerrank.com/challenges/big-sorting/problem
 - Super_Long_Factorial.cpp 
 - Equal_Sum_stack.cpp - https://www.hackerrank.com/challenges/equal-stacks/problem
+- encryption.cpp - https://www.hackerrank.com/challenges/encryption/problem
