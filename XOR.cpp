@@ -1,3 +1,6 @@
+
+// a^a = 0
+
 int lonelyinteger(vector<int> a) {
 
 int n = 0; 
