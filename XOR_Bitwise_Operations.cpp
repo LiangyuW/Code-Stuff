@@ -28,3 +28,10 @@ while(n){
 return 1L << zeros;
 
 }
+
+
+long flippingBits(long n) {
+
+    unsigned int k = ~n;
+    return k;
+}
