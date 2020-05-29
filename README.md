@@ -9,3 +9,4 @@
 - Equal_Sum_stack.cpp - https://www.hackerrank.com/challenges/equal-stacks/problem
 - encryption.cpp - https://www.hackerrank.com/challenges/encryption/problem
 - Sansa_XOR.cpp - https://www.hackerrank.com/challenges/sansa-and-xor/problem
+- luck_balance.cpp - https://www.hackerrank.com/challenges/luck-balance/problem
