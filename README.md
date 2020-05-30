@@ -10,3 +10,4 @@
 - encryption.cpp - https://www.hackerrank.com/challenges/encryption/problem
 - Sansa_XOR.cpp - https://www.hackerrank.com/challenges/sansa-and-xor/problem
 - luck_balance.cpp - https://www.hackerrank.com/challenges/luck-balance/problem
+- new_year_chaos.cpp - https://www.hackerrank.com/challenges/new-year-chaos/
