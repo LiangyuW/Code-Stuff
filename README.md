@@ -12,3 +12,4 @@
 - luck_balance.cpp - https://www.hackerrank.com/challenges/luck-balance/problem
 - new_year_chaos.cpp - https://www.hackerrank.com/challenges/new-year-chaos/ 
 - Maximum_Triangle.cpp - https://www.hackerrank.com/challenges/maximum-perimeter-triangle/
+- queue_using_2_stacks.cpp - https://www.hackerrank.com/challenges/queue-using-two-stacks/problem
