@@ -14,3 +14,4 @@
 - Maximum_Triangle.cpp - https://www.hackerrank.com/challenges/maximum-perimeter-triangle/
 - queue_using_2_stacks.cpp - https://www.hackerrank.com/challenges/queue-using-two-stacks/problem
 - Jim_and_Orders.cpp - https://www.hackerrank.com/challenges/jim-and-the-orders/problem
+- minHeap.cpp - https://www.hackerrank.com/challenges/qheap1/
