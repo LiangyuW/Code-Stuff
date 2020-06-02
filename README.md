@@ -15,4 +15,5 @@
 - queue_using_2_stacks.cpp - https://www.hackerrank.com/challenges/queue-using-two-stacks/problem
 - Jim_and_Orders.cpp - https://www.hackerrank.com/challenges/jim-and-the-orders/problem
 - minHeap.cpp - https://www.hackerrank.com/challenges/qheap1/
-- Huffman_decoding.cpp https://www.hackerrank.com/challenges/tree-huffman-decoding/
+- Huffman_decoding.cpp - https://www.hackerrank.com/challenges/tree-huffman-decoding/
+- Queens_Attack.cpp - https://www.hackerrank.com/challenges/queens-attack-2/
